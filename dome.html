@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="utf-8">
+  <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body>
+
+<div ng-app="" ng-init="num=[{name:'join',job:'厨师'},{name:'tony',job:'设计师'},{name:'jack',job:'程序员'}]">
+  <p>使用 ng-repeat 来循环数组</p>
+  <ul ng-repeat="i in num">
+    <li>{{i.name +',' + i.job}}</li>
+  </ul>
+</div>
+
+</body>
+</html>

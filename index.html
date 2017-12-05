@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="voteApp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" >
+  <title>angular dome</title>
+  <link rel="stylesheet" href="./static/css/pure-0.6.min.css">
+  <link rel="stylesheet" href="./static/css/app.css">
+</head>
+<body>
+  <header class="header">
+    <span class="header-title">足球运动员目录</span>
+  </header>
+
+  <div class="container">
+    <div class="content" ng-view></div>
+  </div>
+
+  <script type="text/javascript" src="./static/js/angular-1.5.8.js"></script>
+  <script type="text/javascript" src="./static/js/angular-route.js"></script>
+  <script type="text/javascript" src="./app/app.js"></script>
+  <script type="text/javascript" src="app/filter/voteFilters.js"></script>
+  <script type="text/javascript" src="app/directive/voteDirectives.js"></script>
+  <script type="text/javascript" src="app/controller/voteControllers.js"></script>
+  <script type="text/javascript" src="app/service/voteServices.js"></script>
+</body>
+</html>
